@@ -1,0 +1,148 @@
+/* Container and layout */
+.result-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #93008e;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.header-content {
+  flex: 1;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.header-subtitle {
+  color: white;
+  font-size: 12px;
+}
+
+.logout-button {
+  color: white;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  margin: auto;
+  width: 100%;
+  max-width: 768px;
+  padding: 24px;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #93008e;
+  margin-bottom: 24px;
+}
+
+/* Result Cards */
+.result-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.result-row {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.result-label {
+  background-color: #900090;
+  color: white;
+  padding: 12px;
+}
+.result-label1 {
+  background-color: #a9619c;
+  color: white;
+  padding: 12px;
+}
+
+.result-value {
+  background-color: #f3f4f6;
+  padding: 12px;
+}
+
+.result-label1.failed {
+  color: #ba2525;
+  font-weight: bold;
+}
+
+.group-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Notes */
+.notes {
+  margin-bottom: 24px;
+}
+
+.note-text {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Links */
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.link {
+  color: #93008e;
+  text-decoration: underline;
+}
+
+.divider {
+  margin: 24px 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Footer */
+.footer {
+  background-color: #93008e;
+  padding: 16px;
+  text-align: center;
+}
+
+.footer-text {
+  color: white;
+}
+
+.footer-divider {
+  margin: 16px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-note {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
