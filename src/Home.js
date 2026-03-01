@@ -81,7 +81,7 @@ export default function Home() {
             <p>
               <strong>Final :</strong> May 2025
             </p>
-            <p className="announcement">Old Scheme</p>
+            <p className="announcement">New Scheme</p>
           </div>
 
           <div className="buttons">
@@ -100,7 +100,7 @@ export default function Home() {
             <p>
               <strong>Final :</strong> May 2025
             </p>
-            <p className="announcement">Old Scheme</p>
+            <p className="announcement">New Scheme</p>
           </div>
 
           <div className="buttons">

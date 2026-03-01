@@ -45,7 +45,7 @@ const Result = () => {
           </div>
         </div>
 
-        <h3 className="group-title">Group I (Old Scheme)</h3>
+        <h3 className="group-title">Group I (New Scheme)</h3>
 
         <div className="result-card">
           <div className="result-row">
