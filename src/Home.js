@@ -19,7 +19,7 @@ export default function Home() {
   };
 
   const handleViewResults = () => {
-    if (rollNumber === "676891" && dob === "1999-12-30") {
+    if (rollNumber === "646719" && dob === "1999-12-30") {
       console.log("rollNumber", rollNumber);
       console.log("dob", dob);
 
@@ -51,7 +51,7 @@ export default function Home() {
           <div>
             <h2>The Institute of Chartered Accountants of India</h2>
             <p className="subtitle" style={{ margin: 0 }}>
-              Examination Results 2024
+              Examination Results 2025
             </p>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Home() {
 
           <div>
             <p>
-              <strong>Final :</strong> Nov 2024
+              <strong>Final :</strong> May 2025
             </p>
             <p className="announcement">Old Scheme</p>
           </div>
@@ -98,7 +98,7 @@ export default function Home() {
           <h3>CHECK MERIT LIST</h3>
           <div>
             <p>
-              <strong>Final :</strong> Nov 2024
+              <strong>Final :</strong> May 2025
             </p>
             <p className="announcement">Old Scheme</p>
           </div>

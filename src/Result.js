@@ -24,7 +24,7 @@ const Result = () => {
           <h1 className="header-title">
             The Institute of Chartered Accountants of India
           </h1>
-          <p className="header-subtitle">Examination Results, Nov 2024</p>
+          <p className="header-subtitle">Examination Results, May 2025</p>
         </div>
         <button className="logout-button" onClick={handleLogout}>
           Logout
@@ -32,12 +32,12 @@ const Result = () => {
       </header>
 
       <main className="main-content">
-        <h2 className="main-title">Final Examination Results, Nov 2024</h2>
+        <h2 className="main-title">Final Examination Results, May 2025</h2>
 
         <div className="result-card">
           <div className="result-row">
             <div className="result-label">Roll Number</div>
-            <div className="result-label">676891</div>
+            <div className="result-label">646719</div>
           </div>
           <div className="result-row">
             <div className="result-label1">Name</div>
@@ -50,29 +50,29 @@ const Result = () => {
         <div className="result-card">
           <div className="result-row">
             <div className="result-label1">Financial Reporting</div>
-            <div className="result-label1">058</div>
+            <div className="result-label1">042</div>
           </div>
           <div className="result-row">
             <div className="result-label">Advanced Financial Management</div>
-            <div className="result-label">047</div>
+            <div className="result-label">054</div>
           </div>
           <div className="result-row">
             <div className="result-label1">
               Advanced Auditing, Assurance and Professional Ethics
             </div>
-            <div className="result-label1">044</div>
+            <div className="result-label1">056</div>
           </div>
-          <div className="result-row">
+          {/* <div className="result-row">
             <div className="result-label">Strategic Management</div>
             <div className="result-label">035</div>
-          </div>
+          </div> */}
           <div className="result-row">
             <div className="result-label1">Result</div>
-            <div className="result-label1 failed">FAILED</div>
+            <div className="result-label1 failed">PASS</div>
           </div>
           <div className="result-row">
             <div className="result-label">Grand Total</div>
-            <div className="result-label">184</div>
+            <div className="result-label">152</div>
           </div>
         </div>
 
