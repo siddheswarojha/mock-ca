@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { message, Spin } from "antd";
+import { message } from "antd";
 import { useNavigate } from "react-router-dom";
 import logoca from "./logoca.png";
 
