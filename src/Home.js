@@ -79,7 +79,7 @@ export default function Home() {
 
           <div>
             <p>
-              <strong>Final :</strong> May 2025
+              <strong>Final :</strong> November 2025
             </p>
             <p className="announcement">New Scheme</p>
           </div>
@@ -98,7 +98,7 @@ export default function Home() {
           <h3>CHECK MERIT LIST</h3>
           <div>
             <p>
-              <strong>Final :</strong> May 2025
+              <strong>Final :</strong> November 2025
             </p>
             <p className="announcement">New Scheme</p>
           </div>

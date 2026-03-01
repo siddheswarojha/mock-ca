@@ -24,7 +24,7 @@ const Result = () => {
           <h1 className="header-title">
             The Institute of Chartered Accountants of India
           </h1>
-          <p className="header-subtitle">Examination Results, May 2025</p>
+          <p className="header-subtitle">Examination Results, November 2025</p>
         </div>
         <button className="logout-button" onClick={handleLogout}>
           Logout
@@ -32,7 +32,7 @@ const Result = () => {
       </header>
 
       <main className="main-content">
-        <h2 className="main-title">Final Examination Results, May 2025</h2>
+        <h2 className="main-title">Final Examination Results, November 2025</h2>
 
         <div className="result-card">
           <div className="result-row">
