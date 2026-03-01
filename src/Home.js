@@ -23,10 +23,8 @@ export default function Home() {
       console.log("rollNumber", rollNumber);
       console.log("dob", dob);
 
-      setLoading(true);
 
       setTimeout(() => {
-        setLoading(false);
         navigate("/result");
       }, 10000);
     } else {
