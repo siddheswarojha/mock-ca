@@ -67,6 +67,10 @@ const Result = () => {
             <div className="result-label">035</div>
           </div> */}
           <div className="result-row">
+            <div className="result-label">Total</div>
+            <div className="result-label">152</div>
+          </div>
+          <div className="result-row">
             <div className="result-label1">Result</div>
             <div className="result-label1 failed">PASS</div>
           </div>
