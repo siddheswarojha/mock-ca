@@ -6,7 +6,6 @@ import logoca from "./logoca.png";
 export default function Home() {
   const [rollNumber, setRollNumber] = useState("");
   const [dob, setDob] = useState("");
-  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
   const handleReset = () => {
